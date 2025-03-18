@@ -186,4 +186,4 @@ int main() {
 ---
 
 **Star ⭐ 这个项目以获取更新！**  
-如有问题或建议，请提交 [Issue](https://github.com/yourusername/StructLog-CPP/issues)。
+如有问题或建议，请提交 [Issue](https://github.com/Z-Lake/StructLog-CPP/issues)。
