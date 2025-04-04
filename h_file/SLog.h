@@ -7,7 +7,7 @@
 
 #include <type_traits>
 #include <vector>
-#include <map> // 映射
+#include <map>
 #include <string>
 #include <string_view>
 #include <list>          // 双向链表
@@ -90,7 +90,7 @@ struct SLogImpl
                 first = false;
             }
             os << "]";
-            if (std::is_compound_v<T>) os << "\n";
+            // if (std::is_compound_v<T>) os << "\n";
         }
         else if constexpr (detail::is_associative<T>::value)
         {
