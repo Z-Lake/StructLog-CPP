@@ -63,9 +63,5 @@ int main() {
     SLog::print("\n===== 多维复杂结构 =====\n");
     SLog::CmdLog << complex_struct << std::endl;
 
-    SLog::set_file("output.log");
-
-    SLog::FileLog << "file_test \n" << complex_struct << std::endl;
-
     return 0;
 }
